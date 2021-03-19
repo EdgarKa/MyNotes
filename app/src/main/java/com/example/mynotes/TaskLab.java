@@ -13,13 +13,7 @@ public class TaskLab {
 
     private TaskLab(Context context) {
         mTasks = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            Task task = new Task();
-            task.setTitle("Task #" + i);
-            task.setDescription("Description for Task #" + i);
-            task.setCompleted(i % 2 == 0);
-            mTasks.add(task);
-        }
+
     }
 
     public static TaskLab get(Context context) {
@@ -27,6 +21,10 @@ public class TaskLab {
             sTaskLab = new TaskLab(context);
         }
         return sTaskLab;
+    }
+
+    public void addTask(Task t) {
+        mTasks.add(t);
     }
 
     public List<Task> getTasks() {

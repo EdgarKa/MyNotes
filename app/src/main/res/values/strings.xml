@@ -10,8 +10,8 @@
     <string name="title">Title</string>
     <string name="date">Date</string>
 
-    <string name="new_task"></string>
-    <string name="show_subtitle"></string>
-    <string name="hide_subtitle"></string>
-    <string name="subtitle_format"></string>
+    <string name="new_task">New Task</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d tasks</string>
 </resources>
