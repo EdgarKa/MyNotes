@@ -37,4 +37,10 @@ public class TaskLab {
                 return task;
             return null;
     }
+
+    public void deleteTask(UUID taskId) {
+        Task task = getTask(taskId);
+        mTasks.remove(task);
+
+    }
 }
