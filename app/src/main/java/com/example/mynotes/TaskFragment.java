@@ -101,6 +101,7 @@ public class TaskFragment extends Fragment {
         });
 
         mDescription = view.findViewById(R.id.task_description);
+        mDescription.setText(mTask.getDescription());
         mDescription.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
