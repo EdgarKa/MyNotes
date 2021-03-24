@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Notes</string>
+    <string name="app_name">Tasks</string>
     <string name="task_title_hint">Enter a Title for Task</string>
     <string name="task_title_label">Title</string>
     <string name="task_description_label">Description</string>
